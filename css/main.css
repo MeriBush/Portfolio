@@ -1,0 +1,22 @@
+/* Variables used throughout will go here. */
+/****************************
+Body Section
+****************************/
+#top {
+  background: url(".top.jpg"); }
+
+/* ------------------------------
+Navbar Section
+--------------------------------*/
+/* CSS code for the Header section. */
+header {
+  background: url("/assets/img/latte-coder.jpg"); }
+
+/* ------------------------------
+Portfolio Section
+--------------------------------*/
+/****************************
+About Section
+****************************/
+/* CSS code for the Contact section. */
+/* CSS code for the Footer section. */
