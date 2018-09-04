@@ -4,4 +4,14 @@ Body Section
 ****************************/
 #top{
     background-image: url("../assets/img/latte-coder.jpg");
+    height: 80em;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 0em;
+}
+
+.intro {
+    height: 100%;
+    width: 100%;
+    background-color: pink;     
 }

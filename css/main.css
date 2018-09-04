@@ -3,14 +3,27 @@
 Body Section
 ****************************/
 #top {
-  background: url(".top.jpg"); }
+  background-image: url("../assets/img/latte-coder.jpg");
+  height: 80em;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 0em; }
+
+.intro {
+  height: 100%;
+  width: 100%;
+  background-color: pink; }
 
 /* ------------------------------
 Navbar Section
 --------------------------------*/
+.navbar {
+  margin-bottom: 0em; }
+
 /* CSS code for the Header section. */
-header {
-  background: url("/assets/img/latte-coder.jpg"); }
+#main-header {
+  height: 50%;
+  background-color: blue; }
 
 /* ------------------------------
 Portfolio Section
