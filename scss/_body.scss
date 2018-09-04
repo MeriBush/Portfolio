@@ -4,14 +4,21 @@ Body Section
 ****************************/
 #top{
     background-image: url("../assets/img/latte-coder.jpg");
-    height: 80em;
-    background-size: contain;
+    min-height: 70em;
+    background-size: cover;
     background-repeat: no-repeat;
     margin-top: 0em;
 }
 
-.intro {
-    height: 100%;
-    width: 100%;
-    background-color: pink;     
+#about{
+    margin-top: 5em;
+    // margin-bottom: 5em; 
+}
+#about-me-photo{
+    background-image: url("../assets/img/about.jpg");
+    height: 25em;
+    width: 20em;
+    background-size: cover;
+    border-radius: 100%;
+    background-repeat: no-repeat;
 }
