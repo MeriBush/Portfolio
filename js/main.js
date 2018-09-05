@@ -1,7 +1,22 @@
 /* General jQuery & JS stuff goes here. */
 
 
+$(document).ready(function ($) {
+
+    /*attempt at navbar*/
+    $(window).scroll(function()
+    {
+        if($(this).scrollTop() > 500) {
+            $('.navbar').addClass('solid');
+        }  else 
+            {
+            $('.navbar').removeClass('solid');
+            }
+        });
+    });
+
 jQuery(document).ready(function ($) {
+
 
     console.log("A starter template created by Eleven Fifty Academy under MIT Licensing.");
 

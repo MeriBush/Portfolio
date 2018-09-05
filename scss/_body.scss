@@ -2,6 +2,11 @@
 /****************************
 Body Section
 ****************************/
+#page-wrapper {
+    position: relative;
+    width: 100%
+}
+
 #top{
     background-image: url("../assets/img/latte-coder.jpg");
     min-height: 70em;
