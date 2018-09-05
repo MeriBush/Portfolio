@@ -1,8 +1,6 @@
-/* General jQuery & JS stuff goes here. */
-
 
 $(document).ready(function ($) {
-
+    console.log("this file loads")
     $(window).scroll(function(){
         console.log("scrolling")
     })

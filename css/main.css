@@ -2,6 +2,12 @@
 /****************************
 Body Section
 ****************************/
+.lora {
+  font-family: 'Lora', serif; }
+
+.karla {
+  font-family: 'Karla', sans-serif; }
+
 #page-wrapper {
   position: relative;
   width: 100%; }
@@ -23,6 +29,26 @@ Body Section
   background-size: cover;
   border-radius: 100%;
   background-repeat: no-repeat; }
+
+.logos {
+  background-size: contain;
+  height: 5em;
+  background-repeat: no-repeat; }
+
+#cSharp {
+  background-image: url("../assets/logo/cSharpCrop.png"); }
+
+#css {
+  background-image: url("../assets/logo/CSS.png"); }
+
+#github {
+  background-image: url("../assets/logo/Github.png"); }
+
+#html {
+  background-image: url("../assets/logo/html_Logo.png"); }
+
+#bootstrap {
+  background-image: url("../assets/logo/bootstrap.png"); }
 
 /* ------------------------------
 Navbar Section
@@ -84,15 +110,127 @@ Navbar Section
   border-style: hidden; }
 
 /* CSS code for the Header section. */
-#main-header {
-  height: 50%;
-  background-color: blue; }
+header.masthead {
+  position: relative;
+  width: 100%;
+  min-height: auto;
+  text-align: center;
+  color: white;
+  background-position: center; }
+  header.masthead .header-content {
+    position: relative;
+    width: 100%;
+    padding: 150px 15px 100px;
+    text-align: center;
+    top: 37%; }
+    header.masthead .header-content .header-content-inner h1 {
+      font-size: 30px;
+      font-weight: 700;
+      margin-top: 0;
+      margin-bottom: 0;
+      text-transform: uppercase; }
+    header.masthead .header-content .header-content-inner hr {
+      margin: 30px auto; }
+    header.masthead .header-content .header-content-inner p {
+      font-size: 16px;
+      font-weight: 300;
+      margin-bottom: 50px;
+      color: rgba(255, 255, 255, 0.7); }
+  @media (min-width: 768px) {
+    header.masthead {
+      height: 100%;
+      min-height: 600px; }
+      header.masthead .header-content {
+        position: absolute;
+        top: 37%;
+        padding: 0 50px;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%); }
+        header.masthead .header-content .header-content-inner {
+          max-width: 1000px;
+          margin-right: auto;
+          margin-left: auto; }
+          header.masthead .header-content .header-content-inner h1 {
+            font-size: 50px; }
+          header.masthead .header-content .header-content-inner p {
+            font-size: 18px;
+            max-width: 80%;
+            margin-right: auto;
+            margin-left: auto; } }
 
 /* ------------------------------
 Portfolio Section
 --------------------------------*/
+#portfolio {
+  background: #fff;
+  padding: 80px 0; }
+
+#portfolio .portfolio-item {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 260px;
+  width: 100%;
+  display: table;
+  overflow: hidden;
+  margin-bottom: 30px; }
+
+#portfolio .portfolio-item .details {
+  height: 260px;
+  background: #fff;
+  display: table-cell;
+  vertical-align: middle;
+  opacity: 0;
+  transition: 0.3s;
+  text-align: center; }
+
+#portfolio .portfolio-item .details h4 {
+  font-size: 25px;
+  transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
+  transform: translate3d(0, -15px, 0);
+  font-weight: 700;
+  color: #000; }
+
+#portfolio .portfolio-item .details span {
+  display: block;
+  color: gray;
+  font-size: 18px;
+  transition: opacity 0.3s, -webkit-transform 0.3s;
+  transition: transform 0.3s, opacity 0.3s;
+  transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
+  -webkit-transform: translate3d(0, 15px, 0);
+  transform: translate3d(0, 15px, 0); }
+
+#portfolio .portfolio-item:hover .details {
+  opacity: 0.6; }
+
+#portfolio .portfolio-item:hover .details h4 {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0); }
+
+#portfolio .portfolio-item:hover .details span {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0); }
+
+.image-link {
+  cursor: -webkit-zoom-in;
+  cursor: -moz-zoom-in;
+  cursor: zoom-in; }
+
+/* aligns caption to center */
+.mfp-title {
+  text-align: center;
+  padding: 5px 5px; }
+
 /****************************
 About Section
 ****************************/
+.hello {
+  font-size: 30px;
+  font-family: 'Lora', serif;
+  color: #FFC6B9; }
+
 /* CSS code for the Contact section. */
 /* CSS code for the Footer section. */
