@@ -1,6 +1,91 @@
 /* ------------------------------
 Navbar Section
 --------------------------------*/
-// .navbar{
-//     margin-bottom: 0em;
-// }
+
+
+.navbar{
+    height: 60px;
+    margin-bottom: 0em;
+    background-color: transparent;
+    border: 0px hidden transparent;
+    color: #6F7E8A;
+    z-index: 100;
+    transition: background-color 1s ease 0s;
+}
+
+.navbar-default {
+    border: 0px hidden transparent;
+    .navbar-brand {
+        margin-top: 10px;
+        color: #6F7E8A;
+
+        &:hover {
+            color: pink;
+        }
+    }
+    .navbar-nav {
+        > li {
+            > a {
+                color: #6F7E8A;
+                margin: 10px 5px 5px 5px;
+            }
+            > a:hover, > a:active, > a:focus {
+                color: pink;
+            }
+            > a:visited {
+                color: pink;
+                text-decoration: none;
+            }
+        }
+        > .active {
+            > a, > a:hover, > a:focus {
+                background-color: transparent;
+                color: pink;
+            }
+        }
+    }
+    .navbar-toggle {
+        border-color: pink;
+            &:hover, &:focus {
+                background-color: lightgrey;
+            }
+        .icon-bar {
+            color: pink;
+            background-color: pink;
+        }
+    }
+
+    .navbar-collapse.collapse.in ul  {
+        background-color: azure;
+    }
+}
+
+.navbar.solid {
+    background: #FCFCFC!important;
+    transition: background-color 1s ease 0s;
+    box-shadow: 0 0 4px gray;
+
+        .navbar-brand {
+            color: pink;
+            transition: color 1s ease 0s;
+        }
+
+        .navbar-nav {
+            > li {
+                > a {
+                    color: pink;
+                    transition: color 1s ease 0s;
+                }
+            }
+        }
+}
+
+#clearNav {
+    background: transparent;
+    border: none;
+    box-shadow: none;
+}
+
+#navbar.collapse.navbar-collapse {
+    border-style: hidden;
+}

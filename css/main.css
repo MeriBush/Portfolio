@@ -10,7 +10,7 @@ Body Section
   background-image: url("../assets/img/latte-coder.jpg");
   min-height: 70em;
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat center center;
   margin-top: 0em; }
 
 #about {
@@ -28,7 +28,60 @@ Body Section
 Navbar Section
 --------------------------------*/
 .navbar {
-  margin-bottom: 0em; }
+  height: 60px;
+  margin-bottom: 0em;
+  background-color: transparent;
+  border: 0px hidden transparent;
+  color: #6F7E8A;
+  z-index: 100;
+  transition: background-color 1s ease 0s; }
+
+.navbar-default {
+  border: 0px hidden transparent; }
+  .navbar-default .navbar-brand {
+    margin-top: 10px;
+    color: #6F7E8A; }
+    .navbar-default .navbar-brand:hover {
+      color: pink; }
+  .navbar-default .navbar-nav > li > a {
+    color: #6F7E8A;
+    margin: 10px 5px 5px 5px; }
+  .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:active, .navbar-default .navbar-nav > li > a:focus {
+    color: pink; }
+  .navbar-default .navbar-nav > li > a:visited {
+    color: pink;
+    text-decoration: none; }
+  .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    background-color: transparent;
+    color: pink; }
+  .navbar-default .navbar-toggle {
+    border-color: pink; }
+    .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+      background-color: lightgrey; }
+    .navbar-default .navbar-toggle .icon-bar {
+      color: pink;
+      background-color: pink; }
+  .navbar-default .navbar-collapse.collapse.in ul {
+    background-color: azure; }
+
+.navbar.solid {
+  background: #FCFCFC !important;
+  transition: background-color 1s ease 0s;
+  box-shadow: 0 0 4px gray; }
+  .navbar.solid .navbar-brand {
+    color: pink;
+    transition: color 1s ease 0s; }
+  .navbar.solid .navbar-nav > li > a {
+    color: pink;
+    transition: color 1s ease 0s; }
+
+#clearNav {
+  background: transparent;
+  border: none;
+  box-shadow: none; }
+
+#navbar.collapse.navbar-collapse {
+  border-style: hidden; }
 
 /* CSS code for the Header section. */
 #main-header {

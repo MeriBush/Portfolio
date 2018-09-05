@@ -26,7 +26,7 @@
 
     <link href="css/main.css" rel="stylesheet" type="text/css">
 
-    <link rel="stylesheet" href="js/main.js">
+    <link href="js/main.js">
 
     <style id="fit-vids-style">.fluid-width-video-wrapper{width:100%;position:relative;padding:0;}.fluid-width-video-wrapper iframe,.fluid-width-video-wrapper object,.fluid-width-video-wrapper embed {position:absolute;top:0;left:0;width:100%;height:100%;}</style>
 </head>
@@ -40,11 +40,11 @@
     <!--==========================
   Navigation Section
   ============================-->
-  <nav class="navbar navbar-default navbar-fixed-top">
+  <nav id="clearNav" class="navbar navbar-default navbar-fixed-top">
     <div class="container-fluid">
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"aria-expanded="false" aria-controls="navbar">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
           <span class="sr-only">Toggle navigation</span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
@@ -97,10 +97,10 @@
   <!--==========================
   Body/Top Photo
   ===========================-->
-  <section class="intro"> 
+ 
   <div class="container-fluid" id="top">
   </div>
-  </section>
+
   
   <section class="container" id="about">
     <div class="row">
@@ -211,10 +211,189 @@
     <!--==========================
   Porfolio Section
   ============================-->
-    <section id="portfolio">
-        <div class="container">
+  <section id="portfolio" class="section-padding">
+    <div class="container text-center">
+        <h2 class="mb-60">My Portfolio</h2>
+    </div>
+
+    <!-- Portfolio -->
+    <div class="container">
+        <ul class="portfolio-filter categories-filter">
+            <li><a data-filter="*" class="categories">All</a></li>
+          <!--   <li><a data-filter=".branding" class="categories">Branding</a></li> -->
+            <li><a data-filter=".java" class="categories active">Java</a></li>
+            <li><a data-filter=".htmlcss" class="categories">HTML/CSS</a></li>
+            <!-- <li><a data-filter=".coffee" class="categories">coffee</a></li> -->
+        </ul>
+
+        <div class="rows portfolio-grid gallery-popup" style="position: relative; height: 1044.88px;">
+
+            <!-- Portfolio Item -->
+            <div class="portfolio-item java" style="position: absolute; left: 0px; top: 0px;">
+                <div class="portfolio-box">
+                    <a href="https://repl.it/Dk8p/42" title="Black Jack Game">
+                        <div class="portfolio-image-wrap">
+                            <img src="img/cards.png" alt="">
+                        </div>
+                        <div class="portfolio-caption-mask">
+                            <div class="portfolio-caption-text">
+                                <div class="portfolio-caption-tb-cell">
+                                    <h5 class="alt-title">Black Jack Game</h5>
+                                    <p>Java Game on Repl</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- End Portfolio Item -->
+
+            <!-- Portfolio Item -->
+            <div class="portfolio-item htmlcss" style="position: absolute; left: 390px; top: 0px; display: none;">
+                <div class="portfolio-box">
+                    <a href="storeapp/storepage.html" title="CSS Store Page">
+                        <div class="portfolio-image-wrap">
+                            <img src="img/storepage" alt="">
+                        </div>
+                        <div class="portfolio-caption-mask">
+                            <div class="portfolio-caption-text">
+                                <div class="portfolio-caption-tb-cell">
+                                    <h5 class="alt-title">Store Front Page Website</h5>
+                                    <p>Simple HTML/CSS Store Page</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- End Portfolio Item -->
+
+             
+
+            <!-- Portfolio Item -->
+             <div class="portfolio-item java" style="position: absolute; left: 390px; top: 0px;">
+                <div class="portfolio-box">
+                    <a href="https://repl.it/DoWg/9" title="HP Game">
+                        <div class="portfolio-image-wrap">
+                            <img src="img/hp.jpg" alt="">
+                        </div>
+                        <div class="portfolio-caption-mask">
+                            <div class="portfolio-caption-text">
+                                <div class="portfolio-caption-tb-cell">
+                                    <h5 class="alt-title">Harry Potter Text Adventure Game</h5>
+                                    <p>Trivia Based Java Game on Repl</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div> 
+            <!-- End Portfolio Item -->
+
+            <!-- Portfolio Item -->
+            <div class="portfolio-item java" style="position: absolute; left: 780px; top: 0px;">
+                <div class="portfolio-box">
+                    <a href="https://repl.it/DpGq/3" title="Hangman Game">
+                        <div class="portfolio-image-wrap">
+                            <img src="img/hangman.jpg" alt="">
+                        </div>
+                        <div class="portfolio-caption-mask">
+                            <div class="portfolio-caption-text">
+                                <div class="portfolio-caption-tb-cell">
+                                    <h5 class="alt-title">Hangman Game</h5>
+                                    <p>Java Game on Repl</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div> 
+            <!-- End Portfolio Item -->
+
+            <!-- Portfolio Item -->
+            <div class="portfolio-item htmlcss" style="position: absolute; left: 390px; top: 264px; display: none;">
+                <div class="portfolio-box">
+                    <a href="http://codepen.io/ccharris/pen/ZpvANy" title="CSS Cat">
+                        <div class="portfolio-image-wrap">
+                            <img src="img/catimg.png" alt="">
+                        </div>
+                        <div class="portfolio-caption-mask">
+                            <div class="portfolio-caption-text">
+                                <div class="portfolio-caption-tb-cell">
+                                    <h5 class="alt-title">HTML/CSS Cat</h5>
+                                    <p>Little Drawing on CodePen</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div> 
+            <!-- End Portfolio Item -->
+
+            
+
+            <!-- Portfolio Item -->
+            <div class="portfolio-item java" style="position: absolute; left: 0px; top: 264px;">
+                <div class="portfolio-box">
+                    <a href="https://repl.it/EBjM/0" title="To Do List Console Application">
+                        <div class="portfolio-image-wrap">
+                            <img src="img/to-do-list.jpg" alt="">
+                        </div>
+                        <div class="portfolio-caption-mask">
+                            <div class="portfolio-caption-text">
+                                <div class="portfolio-caption-tb-cell">
+                                    <h5 class="alt-title">To Do List</h5>
+                                    <p>Console Application on Repl</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- End Portfolio Item -->
+
+<!-- Portfolio Item -->
+            <div class="portfolio-item java" style="position: absolute; left: 390px; top: 264px;">
+                <div class="portfolio-box">
+                    <a href="https://www.youtube.com/watch?v=uEns7s3ZqoE" title="Smoothie Machine">
+                        <div class="portfolio-image-wrap">
+                            <img src="img/smoothie.jpg" alt="">
+                        </div>
+                        <div class="portfolio-caption-mask">
+                            <div class="portfolio-caption-text">
+                                <div class="portfolio-caption-tb-cell">
+                                    <h5 class="alt-title">Smoothie Machine Walk-Through</h5>
+                                    <p>Video on Youtube, Console App in Eclipse</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- End Portfolio Item --> 
+
+              <!-- Portfolio Item -->
+            <div class="portfolio-item java" style="position: absolute; left: 780px; top: 264px;">
+                <div class="portfolio-box">
+                    <a href="https://carolyn-inventory-app.herokuapp.com/" title="Yarn Barn Application">
+                        <div class="portfolio-image-wrap">
+                            <img src="img/yarnbarn.png" alt="">
+                        </div>
+                        <div class="portfolio-caption-mask">
+                            <div class="portfolio-caption-text">
+                                <div class="portfolio-caption-tb-cell">
+                                    <h5 class="alt-title">Inventory Management Application</h5>
+                                    <p>Made with Spring &amp; SQL. Deployed on Heroku</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- End Portfolio Item -->
         </div>
-    </section>
+    </div>
+</section>
 
     <!--==========================
   About Section
@@ -295,7 +474,6 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/main.min.js"></script>
-
 </body>
 
 </html>

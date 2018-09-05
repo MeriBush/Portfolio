@@ -8,10 +8,11 @@ Body Section
 }
 
 #top{
+    //background-color: white;
     background-image: url("../assets/img/latte-coder.jpg");
     min-height: 70em;
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat center center;
     margin-top: 0em;
 }
 

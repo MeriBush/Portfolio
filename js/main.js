@@ -3,14 +3,20 @@
 
 $(document).ready(function ($) {
 
+    $(window).scroll(function(){
+        console.log("scrolling")
+    })
+
     /*attempt at navbar*/
     $(window).scroll(function()
     {
         if($(this).scrollTop() > 500) {
             $('.navbar').addClass('solid');
+            console.log("not at the top")
         }  else 
             {
             $('.navbar').removeClass('solid');
+            console.log("at the top.")
             }
         });
     });
