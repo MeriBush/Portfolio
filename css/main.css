@@ -8,8 +8,8 @@ Body Section
 .karla {
   font-family: 'Karla', sans-serif; }
 
-.tangerine {
-  font-family: 'Tangerine', cursive; }
+.sacramento {
+  font-family: 'sacramento', cursive; }
 
 #page-wrapper {
   position: relative;
@@ -104,18 +104,14 @@ Navbar Section
   .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
     background-color: transparent;
     color: pink; }
-  .navbar-default .navbar-toggle {
-    border-color: pink; }
-    .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-      background-color: lightgrey; }
-    .navbar-default .navbar-toggle .icon-bar {
-      color: pink;
-      background-color: pink; }
+  .navbar-default .navbar-toggle .icon-bar {
+    color: pink;
+    background-color: pink; }
   .navbar-default .navbar-collapse.collapse.in ul {
     background-color: azure; }
 
 .navbar.solid {
-  background: #FCFCFC !important;
+  background: white !important;
   transition: background-color 1s ease 0s;
   box-shadow: 0 0 4px gray; }
   .navbar.solid .navbar-brand {
@@ -186,6 +182,10 @@ header.masthead {
 /* ------------------------------
 Portfolio Section
 --------------------------------*/
+#new-section {
+  font-family: 'sacramento', cursive;
+  font-size: 50px; }
+
 #portfolio {
   background: #fff;
   padding: 80px 0; }
@@ -257,4 +257,7 @@ About Section
   color: #FFC6B9; }
 
 /* CSS code for the Contact section. */
+#new-section {
+  font-size: 50px; }
+
 /* CSS code for the Footer section. */

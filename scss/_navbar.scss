@@ -50,10 +50,10 @@ Navbar Section
         }
     }
     .navbar-toggle {
-        border-color: pink;
-            &:hover, &:focus {
-                background-color: lightgrey;
-            }
+        // border-color: pink;
+        //     &:hover, &:focus {
+        //         background-color: lightgrey;
+        //     }
         .icon-bar {
             color: pink;
             background-color: pink;
@@ -66,13 +66,12 @@ Navbar Section
 }
 
 .navbar.solid {
-    background: #FCFCFC!important;
+    background: white!important;
     transition: background-color 1s ease 0s;
     box-shadow: 0 0 4px gray;
 
-        .navbar-brand {
+        .navbar-brand {    //THIS IS CORRECT! DO NOT CHANGE!
                 color: #6F7E8A;
-                // color: pink;
             transition: color 1s ease 0s;
         }
 
