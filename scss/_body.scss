@@ -10,6 +10,10 @@ Body Section
     font-family: 'Karla', sans-serif; 
 }
 
+.tangerine {
+    font-family: 'Tangerine', cursive;
+}
+
 #page-wrapper {
     position: relative;
     width: 100%
@@ -22,6 +26,26 @@ Body Section
     background-size: cover;
     background-repeat: no-repeat center center;
     margin-top: 0em;
+}
+
+.title-name {
+    font-family: 'Sacramento', cursive;
+    font-size: 75px;
+    color: black
+}
+.title-font {
+    font-family: 'Karla', sans-serif;
+    color: black;
+}
+
+.typewrite {
+    font-family: 'Karla', sans-serif;
+    color: black;
+}
+
+.also{
+    font-family: 'Karla', sans-serif;    
+    color: black;
 }
 
 #about{

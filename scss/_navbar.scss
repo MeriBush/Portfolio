@@ -1,12 +1,18 @@
 /* ------------------------------
 Navbar Section
 --------------------------------*/
+.navbar-brand {
+    font-family: 'Sacramento', cursive;
+    font-size: 30px;
+}
+
 .navbar{
     height: 60px;
     margin-bottom: 0em;
     background-color: transparent;
     border: 0px hidden transparent;
-    color: #6F7E8A;
+    color: black;
+    // color: #6F7E8A;
     z-index: 100;
     transition: background-color 1s ease 0s;
 }
@@ -15,10 +21,11 @@ Navbar Section
     border: 0px hidden transparent;
     .navbar-brand {
         margin-top: 10px;
-        color: #6F7E8A;
+        color: black;
+        // color: #6F7E8A;
 
         &:hover {
-            color: pink;
+            color: #FFC6B9;
         }
     }
     .navbar-nav {
@@ -64,7 +71,8 @@ Navbar Section
     box-shadow: 0 0 4px gray;
 
         .navbar-brand {
-            color: pink;
+                color: #6F7E8A;
+                // color: pink;
             transition: color 1s ease 0s;
         }
 
