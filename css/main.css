@@ -20,6 +20,8 @@ Body Section
   min-height: 70em;
   background-size: cover;
   background-repeat: no-repeat center center;
+  background-attachment: fixed;
+  background-position: center top;
   margin-top: 0em; }
 
 .title-name {
@@ -86,7 +88,7 @@ Navbar Section
   background-color: transparent;
   border: 0px hidden transparent;
   z-index: 100;
-  transition: background-color 1s ease 0s; }
+  transition: background-color 0.5s ease 0s; }
 
 .navbar-default {
   border: 0px hidden transparent; }
@@ -112,12 +114,14 @@ Navbar Section
     color: #6F7E8A;
     transition: color 1s ease 0s; }
     .navbar.solid .navbar-brand:hover {
-      color: #FFC6B9; }
+      color: #FFC6B9;
+      transition: background-color 0.5s ease 0s; }
   .navbar.solid .navbar-nav > li > a {
     color: #6F7E8A;
     transition: color 1s ease 0s; }
   .navbar.solid .navbar-nav > li > a:hover, .navbar.solid .navbar-nav > li > a:active, .navbar.solid .navbar-nav > li > a:focus {
-    color: pink; }
+    color: pink;
+    transition: background-color 0.5s ease 0s; }
 
 #clearNav {
   background: transparent;
@@ -130,7 +134,6 @@ header.masthead {
   width: 100%;
   min-height: auto;
   text-align: center;
-  color: white;
   background-position: center; }
   header.masthead .header-content {
     position: relative;
