@@ -73,6 +73,9 @@ Body Section
 /* ------------------------------
 Navbar Section
 --------------------------------*/
+.link {
+  font-family: 'Karla', sans-serif; }
+
 .navbar-brand {
   font-family: 'Sacramento', cursive;
   font-size: 30px; }
@@ -82,7 +85,6 @@ Navbar Section
   margin-bottom: 0em;
   background-color: transparent;
   border: 0px hidden transparent;
-  color: black;
   z-index: 100;
   transition: background-color 1s ease 0s; }
 
@@ -94,21 +96,13 @@ Navbar Section
     .navbar-default .navbar-brand:hover {
       color: #FFC6B9; }
   .navbar-default .navbar-nav > li > a {
-    color: #6F7E8A;
+    color: black;
     margin: 10px 5px 5px 5px; }
   .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:active, .navbar-default .navbar-nav > li > a:focus {
     color: pink; }
-  .navbar-default .navbar-nav > li > a:visited {
-    color: pink;
-    text-decoration: none; }
   .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
     background-color: transparent;
     color: pink; }
-  .navbar-default .navbar-toggle .icon-bar {
-    color: pink;
-    background-color: pink; }
-  .navbar-default .navbar-collapse.collapse.in ul {
-    background-color: azure; }
 
 .navbar.solid {
   background: white !important;
@@ -117,17 +111,18 @@ Navbar Section
   .navbar.solid .navbar-brand {
     color: #6F7E8A;
     transition: color 1s ease 0s; }
+    .navbar.solid .navbar-brand:hover {
+      color: #FFC6B9; }
   .navbar.solid .navbar-nav > li > a {
-    color: pink;
+    color: #6F7E8A;
     transition: color 1s ease 0s; }
+  .navbar.solid .navbar-nav > li > a:hover, .navbar.solid .navbar-nav > li > a:active, .navbar.solid .navbar-nav > li > a:focus {
+    color: pink; }
 
 #clearNav {
   background: transparent;
   border: none;
   box-shadow: none; }
-
-#navbar.collapse.navbar-collapse {
-  border-style: hidden; }
 
 /* CSS code for the Header section. */
 header.masthead {

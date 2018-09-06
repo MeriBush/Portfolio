@@ -1,6 +1,10 @@
 /* ------------------------------
 Navbar Section
 --------------------------------*/
+.link {
+    font-family: 'Karla', sans-serif; 
+}
+
 .navbar-brand {
     font-family: 'Sacramento', cursive;
     font-size: 30px;
@@ -11,8 +15,6 @@ Navbar Section
     margin-bottom: 0em;
     background-color: transparent;
     border: 0px hidden transparent;
-    color: black;
-    // color: #6F7E8A;
     z-index: 100;
     transition: background-color 1s ease 0s;
 }
@@ -21,47 +23,28 @@ Navbar Section
     border: 0px hidden transparent;
     .navbar-brand {
         margin-top: 10px;
-        color: black;
-        // color: #6F7E8A;
+        color: black;  //This sets the color of my name in the transparent navbar.
 
-        &:hover {
+        &:hover {   // This changes my name pink when I hover over it.
             color: #FFC6B9;
         }
     }
     .navbar-nav {
         > li {
             > a {
-                color: #6F7E8A;
+                color: black;  //This makes my buttons black when transparent.
                 margin: 10px 5px 5px 5px;
             }
             > a:hover, > a:active, > a:focus {
-                color: pink;
-            }
-            > a:visited {
-                color: pink;
-                text-decoration: none;
+                color: pink;  //This changes navbar buttons pink when I hover.
             }
         }
-        > .active {
+        > .active {  //Not sure if this is necessary... MIGHT be relevant when buttons link to something.
             > a, > a:hover, > a:focus {
                 background-color: transparent;
                 color: pink;
             }
         }
-    }
-    .navbar-toggle {
-        // border-color: pink;
-        //     &:hover, &:focus {
-        //         background-color: lightgrey;
-        //     }
-        .icon-bar {
-            color: pink;
-            background-color: pink;
-        }
-    }
-
-    .navbar-collapse.collapse.in ul  {
-        background-color: azure;
     }
 }
 
@@ -70,16 +53,23 @@ Navbar Section
     transition: background-color 1s ease 0s;
     box-shadow: 0 0 4px gray;
 
-        .navbar-brand {    //THIS IS CORRECT! DO NOT CHANGE!
+        .navbar-brand {    //This changes my name gray when I scroll down.
                 color: #6F7E8A;
             transition: color 1s ease 0s;
+            &:hover {   // This changes my name pink when I hover over it.
+                color: #FFC6B9;
+            }
         }
 
-        .navbar-nav {
+        .navbar-nav {  //This changes my buttons gray when I scrolls down.
             > li {
                 > a {
-                    color: pink;
+                    color: #6F7E8A;
                     transition: color 1s ease 0s;
+                    // margin: 10px 5px 5px 5px;
+                }
+                > a:hover, > a:active, > a:focus {
+                    color: pink;  //This changes navbar buttons pink when I hover.
                 }
             }
         }
@@ -89,8 +79,4 @@ Navbar Section
     background: transparent;
     border: none;
     box-shadow: none;
-}
-
-#navbar.collapse.navbar-collapse {
-    border-style: hidden;
 }
