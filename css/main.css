@@ -136,7 +136,6 @@ header.masthead {
   text-align: center;
   background-position: center; }
   header.masthead .header-content {
-    position: relative;
     width: 100%;
     padding: 150px 15px 100px;
     text-align: center;
@@ -259,3 +258,6 @@ About Section
   font-size: 50px; }
 
 /* CSS code for the Footer section. */
+.footer {
+  background-color: #F1F2F4;
+  height: 15em; }
