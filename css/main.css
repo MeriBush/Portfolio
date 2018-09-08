@@ -76,6 +76,22 @@ Body Section
 #bootstrap {
   background-image: url("../assets/logo/bootstrap.png"); }
 
+footer {
+  background-position: center center;
+  vertical-align: middle; }
+
+.footer-logos {
+  margin-top: 3em;
+  background-size: contain;
+  height: 5em;
+  background-repeat: no-repeat; }
+
+#linkedin {
+  background-image: url("../assets/logo/linkedin.png"); }
+
+#github-foot {
+  background-image: url("../assets/logo/Github.png"); }
+
 /* ------------------------------
 Navbar Section
 --------------------------------*/
@@ -271,4 +287,20 @@ About Section
 /* CSS code for the Footer section. */
 .footer {
   background-color: #F1F2F4;
-  height: 15em; }
+  height: 11em; }
+
+footer {
+  background-position: center center;
+  vertical-align: middle; }
+
+.footer-logos {
+  margin-top: 3em;
+  background-size: contain;
+  height: 5em;
+  background-repeat: no-repeat; }
+
+#linkedin {
+  background-image: url("../assets/logo/linkedin.png"); }
+
+#github-foot {
+  background-image: url("../assets/logo/Github.png"); }
