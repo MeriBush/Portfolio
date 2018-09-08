@@ -36,13 +36,13 @@ Navbar Section
                 margin: 10px 5px 5px 5px;
             }
             > a:hover, > a:active, > a:focus {
-                color: pink;  //This changes navbar buttons pink when I hover.
+                color: #FFC6B9;  //This changes navbar buttons pink when I hover.
             }
         }
         > .active {  //Not sure if this is necessary... MIGHT be relevant when buttons link to something.
             > a, > a:hover, > a:focus {
                 background-color: transparent;
-                color: pink;
+                color: #FFC6B9;
             }
         }
     }
@@ -70,7 +70,7 @@ Navbar Section
                     // margin: 10px 5px 5px 5px;
                 }
                 > a:hover, > a:active, > a:focus {
-                    color: pink;  //This changes navbar buttons pink when I hover.
+                    color: #FFC6B9;  //This changes navbar buttons pink when I hover.
                     transition: background-color 0.5s ease 0s;
                 }
             }

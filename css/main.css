@@ -51,6 +51,11 @@ Body Section
   border-radius: 100%;
   background-repeat: no-repeat; }
 
+#skills .logos {
+  background-position: center center;
+  vertical-align: middle;
+  margin-bottom: 30px; }
+
 .logos {
   background-size: contain;
   height: 5em;
@@ -100,10 +105,10 @@ Navbar Section
     color: black;
     margin: 10px 5px 5px 5px; }
   .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:active, .navbar-default .navbar-nav > li > a:focus {
-    color: pink; }
+    color: #FFC6B9; }
   .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
     background-color: transparent;
-    color: pink; }
+    color: #FFC6B9; }
 
 .navbar.solid {
   background: white !important;
@@ -119,7 +124,7 @@ Navbar Section
     color: #6F7E8A;
     transition: color 1s ease 0s; }
   .navbar.solid .navbar-nav > li > a:hover, .navbar.solid .navbar-nav > li > a:active, .navbar.solid .navbar-nav > li > a:focus {
-    color: pink;
+    color: #FFC6B9;
     transition: background-color 0.5s ease 0s; }
 
 #clearNav {
@@ -251,6 +256,13 @@ About Section
   font-size: 30px;
   font-family: 'Lora', serif;
   color: #FFC6B9; }
+
+#about-me-photo {
+  margin-top: 4%; }
+
+#about .about-me {
+  background-position: center center;
+  vertical-align: middle; }
 
 /* CSS code for the Contact section. */
 #new-section {
