@@ -21,6 +21,7 @@ Portfolio Section
   display: table;
   overflow: hidden;
   margin-bottom: 30px;
+  text-decoration: none;
 }
   
 #portfolio .portfolio-item .details {
@@ -43,7 +44,7 @@ Portfolio Section
   
 #portfolio .portfolio-item .details span {
     display: block;
-    color: gray;
+    color: #000;
     font-size: 18px;
     transition: opacity 0.3s, -webkit-transform 0.3s;
     transition: transform 0.3s, opacity 0.3s;
@@ -53,7 +54,7 @@ Portfolio Section
 }
   
 #portfolio .portfolio-item:hover .details {
-    opacity: 0.6;
+    opacity: 0.8;
 }
   
 #portfolio .portfolio-item:hover .details h4 {

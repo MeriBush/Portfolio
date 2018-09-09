@@ -216,7 +216,8 @@ Portfolio Section
   width: 100%;
   display: table;
   overflow: hidden;
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+  text-decoration: none; }
 
 #portfolio .portfolio-item .details {
   height: 260px;
@@ -236,7 +237,7 @@ Portfolio Section
 
 #portfolio .portfolio-item .details span {
   display: block;
-  color: gray;
+  color: #000;
   font-size: 18px;
   transition: opacity 0.3s, -webkit-transform 0.3s;
   transition: transform 0.3s, opacity 0.3s;
@@ -245,7 +246,7 @@ Portfolio Section
   transform: translate3d(0, 15px, 0); }
 
 #portfolio .portfolio-item:hover .details {
-  opacity: 0.6; }
+  opacity: 0.8; }
 
 #portfolio .portfolio-item:hover .details h4 {
   -webkit-transform: translate3d(0, 0, 0);
