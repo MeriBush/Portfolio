@@ -21,6 +21,7 @@ Body Section
   background-size: cover;
   background-repeat: no-repeat center center;
   background-position: center top;
+  vertical-align: middle;
   margin-top: 0em; }
 
 .title-name {
@@ -75,10 +76,6 @@ Body Section
 
 #bootstrap {
   background-image: url("../assets/logo/bootstrap.png"); }
-
-footer {
-  background-position: center center;
-  vertical-align: middle; }
 
 .footer-logos {
   margin-top: 3em;
@@ -159,20 +156,22 @@ header.masthead {
     width: 100%;
     padding: 150px 15px 100px;
     text-align: center;
+    background-position: center center;
+    vertical-align: middle;
     top: 37%; }
-    header.masthead .header-content .header-content-inner h1 {
-      font-size: 30px;
-      font-weight: 700;
-      margin-top: 0;
-      margin-bottom: 0;
-      text-transform: uppercase; }
-    header.masthead .header-content .header-content-inner hr {
-      margin: 30px auto; }
-    header.masthead .header-content .header-content-inner p {
-      font-size: 16px;
-      font-weight: 300;
-      margin-bottom: 50px;
-      color: rgba(255, 255, 255, 0.7); }
+  header.masthead .header-content-inner h1 {
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-position: center center;
+    vertical-align: middle; }
+  header.masthead .header-content-inner hr {
+    margin: 30px auto; }
+  header.masthead .header-content-inner p {
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 50px;
+    color: rgba(255, 255, 255, 0.7); }
   @media (min-width: 768px) {
     header.masthead {
       height: 100%;
@@ -274,10 +273,12 @@ About Section
   font-family: 'Lora', serif;
   color: #FFC6B9; }
 
-#about-me-photo {
-  margin-top: 4%; }
+.about {
+  background-position: center center;
+  vertical-align: middle; }
 
-#about .about-me {
+#about-me-photo {
+  margin-top: 4%;
   background-position: center center;
   vertical-align: middle; }
 
@@ -288,13 +289,12 @@ About Section
 /* CSS code for the Footer section. */
 .footer {
   background-color: #F1F2F4;
+  vertical-align: middle bottom;
   height: 11em; }
 
-footer {
-  background-position: center center;
-  vertical-align: middle; }
-
 .footer-logos {
+  background-position: center center;
+  vertical-align: middle;
   margin-top: 3em;
   background-size: contain;
   height: 5em;

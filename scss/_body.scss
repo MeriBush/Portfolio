@@ -20,13 +20,13 @@ Body Section
 }
 
 #top{
-    //background-color: white;
     background-image: url("../assets/img/latte-coder.jpg");
     min-height: 70em;
     background-size: cover;
     background-repeat: no-repeat center center;
     // background-attachment: fixed;
     background-position: center top;
+    vertical-align: middle;
     margin-top: 0em;
 }
 
@@ -93,11 +93,6 @@ Body Section
 
 #bootstrap {
     background-image: url("../assets/logo/bootstrap.png")
-}
-
-footer {
-    background-position: center center;
-    vertical-align: middle;
 }
 
 .footer-logos{

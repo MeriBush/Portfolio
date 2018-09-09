@@ -1,15 +1,13 @@
 /* CSS code for the Footer section. */
 .footer {
     background-color: #F1F2F4;
+    vertical-align: middle bottom;
     height: 11em;
 }
 
-footer {
+.footer-logos{
     background-position: center center;
     vertical-align: middle;
-}
-
-.footer-logos{
     margin-top: 3em;
     background-size: contain;
     height: 5em;
