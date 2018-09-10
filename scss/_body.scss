@@ -2,6 +2,11 @@
 /****************************
 Body Section
 ****************************/
+
+.container-fluid {
+    padding: 0;
+}
+
 .lora {
     font-family: 'Lora', serif;
 }
@@ -14,10 +19,10 @@ Body Section
     font-family: 'sacramento', cursive;
 }
 
-#page-wrapper {
-    position: relative;
-    width: 100%
-}
+// #page-wrapper {
+//     position: relative;
+//     width: 100%
+// }
 
 #top{
     background-image: url("../assets/img/latte-coder.jpg");
@@ -27,12 +32,12 @@ Body Section
     // background-attachment: fixed;
     background-position: center top;
     vertical-align: middle;
-    margin-top: 0em;
+    margin-top: 0;
 }
 
 .title-name {
     font-family: 'Sacramento', cursive;
-    font-size: 75px;
+    font-size: 5em;
     color: black
 }
 .title-font {
