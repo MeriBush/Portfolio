@@ -1,19 +1,19 @@
 /* CSS code for the Header section. */
 // Styling for the masthead
 header.masthead {
-    position: relative;  //previously relative
+    position: absolute;  //previously relative
     width: 100%;
     min-height: auto;
     text-align: center;
-    background-position: center;
+    // background-position: center;
+    background-position: center center;
+    vertical-align: middle;
 
     // @include background-cover;
     .header-content {
       width: 100%;
-      padding: 150px 15px 100px;
-      text-align: center;
-      background-position: center center;
-      vertical-align: middle;
+      // padding: 150px 15px 100px;
+      // text-align: center;
       top: 37%;
     }
 
@@ -22,49 +22,74 @@ header.masthead {
 
       .header-content-inner {
         h1 {
-          font-size: 30px;
+          // font-size: 30px;
           // font-weight: 700;
-          margin-top: 0;
-          margin-bottom: 0;
+          // margin-top: 0;
+          // margin-bottom: 0;
           // text-transform: uppercase;
-          background-position: center center;
-          vertical-align: middle;
         }
         hr {
-          margin: 30px auto;
+          // margin: 30px auto;
         }
-        p {
-          font-size: 16px;
-          font-weight: 300;
-          margin-bottom: 50px;
-          color: fade-out(white, .3);
-        }
+        // p {
+        //   font-size: 16px;
+        //   font-weight: 300;
+        //   margin-bottom: 50px;
+        //   color: fade-out(white, .3);
+        // }
       }
     
+      // .header-content-inner{
+      //   background-position: center top;
+      //   vertical-align: middle;
+      // }
+    
     @media (min-width: 768px) {
-      height: 100%;
+      // height: 100%;
       min-height: 600px;
       .header-content {
         position: absolute;   //previously absolute
-        top: 37%;
-        padding: 0 50px;
+
+        // top: 37%;
+        // padding: 0 50px;
         -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
         transform: translateY(-50%);
         .header-content-inner {
-          max-width: 1000px;
-          margin-right: auto;
-          margin-left: auto;
+          background-position: center center;
+          vertical-align: middle;
+          // max-width: 1000px;
+          // margin-right: auto;
+          // margin-left: auto;
+          margin-left: 30%;
+          margin-top: 30%
           h1 {
-            font-size: 50px;
+            // font-size: 50px;
+            background-position: center center;
+            vertical-align: middle;
           }
           p {
-            font-size: 18px;
-            max-width: 80%;
-            margin-right: auto;
-            margin-left: auto;
+            // font-size: 18px;
+            // max-width: 80%;
+            // margin-right: auto;
+            // margin-left: auto;
           }
         }
       }
     }
+  }
+
+  #mb {
+    background-position: center center;
+    vertical-align: middle;
+  }
+
+  .title-font {
+    background-position: center center;
+    vertical-align: middle;
+  }
+
+  .also {
+    background-position: center center;
+    vertical-align: middle;
   }
