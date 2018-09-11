@@ -24,4 +24,15 @@ About Section
     background-position: center center;
     vertical-align: middle;
     margin-bottom: 30px; //*
+    
 }
+@media (min-width: 992px)
+{.col-md-4 {
+    width: 33.33333333%;
+}#about1 {
+    padding: 0 5em;
+}
+
+#about2 {
+    padding: 0 5em;
+}}

@@ -299,6 +299,14 @@ About Section
   vertical-align: middle;
   margin-bottom: 30px; }
 
+@media (min-width: 992px) {
+  .col-md-4 {
+    width: 33.33333333%; }
+  #about1 {
+    padding: 0 5em; }
+  #about2 {
+    padding: 0 5em; } }
+
 /* CSS code for the Contact section. */
 #new-section {
   font-size: 50px; }
@@ -306,13 +314,13 @@ About Section
 /* CSS code for the Footer section. */
 .footer {
   background-color: #F1F2F4;
-  vertical-align: middle bottom;
-  height: 11em; }
+  vertical-align: middle bottom; }
 
 .footer-logos {
   background-position: center center;
   vertical-align: middle;
   margin-top: 3em;
+  margin-bottom: 3em;
   background-size: contain;
   height: 5em;
   background-repeat: no-repeat; }
