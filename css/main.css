@@ -14,32 +14,6 @@ Body Section
 .sacramento {
   font-family: 'sacramento', cursive; }
 
-#top {
-  background-image: url("../assets/img/latte-coder.jpg");
-  min-height: 70em;
-  background-size: cover;
-  background-repeat: no-repeat center center;
-  background-position: center top;
-  vertical-align: middle;
-  margin-top: 0; }
-
-.title-name {
-  font-family: 'Sacramento', cursive;
-  font-size: 5em;
-  color: black; }
-
-.title-font {
-  font-family: 'Karla', sans-serif;
-  color: black; }
-
-.typewrite {
-  font-family: 'Karla', sans-serif;
-  color: black; }
-
-.also {
-  font-family: 'Karla', sans-serif;
-  color: black; }
-
 #about {
   margin: 5em; }
 
@@ -190,15 +164,39 @@ header.masthead {
           header.masthead .header-content .header-content-inner p {
             font-size: 1em; } }
 
+#top {
+  background-image: url("../assets/img/latte-coder.jpg");
+  min-height: 70em;
+  background-size: cover;
+  background-repeat: no-repeat center center;
+  background-position: center top;
+  vertical-align: middle;
+  margin-top: 0; }
+
+.title-name {
+  font-family: 'Sacramento', cursive;
+  font-size: 5em;
+  color: black; }
+
+.title-font {
+  font-family: 'Karla', sans-serif;
+  color: black; }
+
+.typewrite {
+  font-family: 'Karla', sans-serif;
+  color: black; }
+
+.also {
+  font-family: 'Karla', sans-serif;
+  color: black;
+  background-position: center center;
+  vertical-align: middle; }
+
 #mb {
   position: relative;
   left: 50%; }
 
 .title-font {
-  background-position: center center;
-  vertical-align: middle; }
-
-.also {
   background-position: center center;
   vertical-align: middle; }
 
