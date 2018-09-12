@@ -147,9 +147,9 @@ header.masthead {
       min-height: 600px; }
       header.masthead .header-content {
         top: 37%;
-        -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%); }
+        -webkit-transform: translateY(-60%);
+        -ms-transform: translateY(-60%);
+        transform: translateY(-60%); }
         header.masthead .header-content .header-content-inner {
           background-position: center center;
           vertical-align: middle;
@@ -160,7 +160,8 @@ header.masthead {
             font-size: 10em;
             margin: 0;
             background-position: center center;
-            vertical-align: middle; }
+            vertical-align: middle;
+            text-align: left; }
           header.masthead .header-content .header-content-inner p {
             font-size: 1em; } }
 
@@ -176,7 +177,8 @@ header.masthead {
 .title-name {
   font-family: 'Sacramento', cursive;
   font-size: 5em;
-  color: black; }
+  color: black;
+  width: 100%; }
 
 .title-font {
   font-family: 'Karla', sans-serif;

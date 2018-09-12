@@ -57,9 +57,9 @@ header.masthead {
         
         top: 37%;
         // padding: 0 50px;
-        -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
+        -webkit-transform: translateY(-60%);
+        -ms-transform: translateY(-60%);
+        transform: translateY(-60%);
         .header-content-inner {
           background-position: center center;
           vertical-align: middle;
@@ -73,6 +73,7 @@ header.masthead {
             margin: 0;
             background-position: center center;
             vertical-align: middle;
+            text-align: left;
           }
           h3 {
 
@@ -102,7 +103,9 @@ header.masthead {
 .title-name {
     font-family: 'Sacramento', cursive;
     font-size: 5em;
-    color: black
+    color: black;
+    width: 100%;
+    // text-align:left;
 }
 .title-font {
     font-family: 'Karla', sans-serif;
